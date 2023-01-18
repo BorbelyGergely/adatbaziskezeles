@@ -1,0 +1,28 @@
+SELECT 
+	AVG(`jegy`)
+FROM 
+	`ellenorzo` 
+WHERE 
+	1
+
+SELECT 
+	AVG(`jegy`) AS 'A jegyek átlaga'
+FROM 
+	`ellenorzo` 
+WHERE 
+	1
+
+SELECT 
+	`tantargy_neve` AS 'A tantárgy neve', AVG(`jegy`) AS 'A jegyek átlaga'
+FROM 
+	`ellenorzo` 
+WHERE 
+	1
+
+SELECT 
+	`tantargy_neve` AS 'A tantárgy neve', AVG(`jegy`) AS 'A jegyek átlaga'
+FROM 
+	`ellenorzo` 
+WHERE 
+	1
+GROUP BY `tantargy_neve`
